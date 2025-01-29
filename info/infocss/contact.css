@@ -1,0 +1,123 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.contact-us {
+    padding: 3rem 2rem;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.contact-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #34495e;
+}
+
+.contact-us p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+}
+.contact-form {
+    background-color: #ecf0f1; 
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #16a085;
+    transform: translateY(-5px);
+}
+
+.home-button-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.home-button {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #16a085;
+    transform: translateY(-5px);
+}
+
+.thank-you-message {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.go-home-button {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.go-home-button:hover {
+    background-color: #16a085;
+    transform: translateY(-5px);
+}
